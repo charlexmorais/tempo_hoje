@@ -1,15 +1,7 @@
-import { chaveApi } from "./config.js";
+import { chaveApi, cityElement, cityInput, countryElement, desElement, humidityElement, searchBtn, tempElement, weatherContainer, weatherElement, windElement } from "./constants.js";
+import { showError, showSuccess } from "./message.js";
 
-const cityInput = document.querySelector("#city-input");
-const searchBtn = document.getElementById("search");
-const cityElement = document.querySelector("#city");
-const tempElement = document.querySelector("#temperature span");
-const desElement = document.querySelector("#description");
-const weatherElement = document.querySelector("#weather-icon");
-const countryElement = document.querySelector("#country span");
-const humidityElement = document.querySelector("#humidity span");
-const windElement = document.querySelector("#wind span");
-const weatherContainer = document.querySelector("#time_date");
+
 
 const getWeatherData = async (city) => {
     try {
@@ -60,29 +52,4 @@ cityInput.addEventListener("keyup", (e) => {
     }
 });
 
-
-function showError(message) {
-    const errorElement = document.createElement('div');
-    errorElement.classList.add('error');
-    errorElement.textContent = message;
-    document.body.appendChild(errorElement);
-
-    
-    setTimeout(() => {
-        errorElement.remove();
-    }, 2000);
-}
-
-
-function showSuccess(message) {
-    const successElement = document.createElement('div');
-    successElement.classList.add('success');
-    successElement.textContent = message;
-    document.body.appendChild(successElement);
-
-    
-    setTimeout(() => {
-        successElement.remove();
-    }, 2000);
-}
 
