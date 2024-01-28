@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "country-list": "^2.3.0",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "dotenv-webpack": "^8.0.1"
+  }
+}
