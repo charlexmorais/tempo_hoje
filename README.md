@@ -1,3 +1,4 @@
+User
 # Projeto tempo_hoje
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/charlexmorais/tempo_hoje/commit/eac44818178db05e34a2089cd2a876f563937f5e) 
 
@@ -27,10 +28,14 @@ Condições do Tempo: Descreve as condições meteorológicas gerais, como ensol
   - HTML / CSS / JavaScript
   - **api:**
   - API de Meteorologia (OpenWeatherMap)
+  - ## Como usar api (OpenWeatherMap)
+  - acesse https://home.openweathermap.org/users/sign_up
+  - crie a sua chave api para ultilizar no  projeto
+  - acesse a documentacao :https://openweathermap.org/current
+  - exemplo de chamada :  `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${chaveApi}&lang=pt_br`
 ## Como Executar o Projeto
 
 **Clonar o Repositório:**
 ```bash
 git clone https://github.com/charlexmorais/tempo_hoje
 cd tempo_hoje
-
