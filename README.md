@@ -39,3 +39,6 @@ Condições do Tempo: Descreve as condições meteorológicas gerais, como ensol
 ```bash
 git clone https://github.com/charlexmorais/tempo_hoje
 cd tempo_hoje
+npm install
+
+
