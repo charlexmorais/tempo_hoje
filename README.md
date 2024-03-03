@@ -25,8 +25,6 @@ Condições do Tempo: Descreve as condições meteorológicas gerais, como ensol
 
 - **Front end:**
   - HTML / CSS / JavaScript
-- **back end:**
-  - TypeScript/node.js/PostgreSQL/Express.js
   - **api:**
   - API de Meteorologia (OpenWeatherMap)
 ## Como Executar o Projeto
