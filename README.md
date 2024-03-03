@@ -17,7 +17,25 @@ Vento: Informa a velocidade.
 
 Condições do Tempo: Descreve as condições meteorológicas gerais, como ensolarado, nublado, chuvoso, etc.
 
+## Como usar a aplicaçao 
+Pesquisar por Cidade:
 
+No campo de busca, digite o nome da cidade desejada.
+Clique no botão de pesquisa.
+Visualizar Informações Meteorológicas:
+
+Após a pesquisa, a cidade desejada será exibida com informações detalhadas.
+Você terá acesso à temperatura atual, níveis de umidade, velocidade do vento e condições meteorológicas gerais.
+Interpretar os Resultados:
+
+A temperatura será exibida em graus Celsius (ou outra unidade selecionada).
+A umidade indicará a quantidade de umidade presente no ar.
+A velocidade do vento informará a intensidade do vento na localidade.
+As condições do tempo descreverão se está ensolarado, nublado, chuvoso, etc.
+Melhorar a Experiência:
+
+Explore diferentes cidades para obter informações sobre várias localidades.
+Utilize a aplicação como uma ferramenta prática para planejar atividades com base nas condições meteorológicas.
 ## Capturas de Tela
 ![Mobile 1](https://github.com/charlexmorais/assets/blob/master/img/tela%20tempo.png)
 
