@@ -1,5 +1,5 @@
 
-// const chaveApi ="coloque sua chave api "
+export const chaveApi ="03d6aa7fc497d02b704a50531f51d827"
 
 export const cityInput = document.querySelector("#city-input");
 export const searchBtn = document.getElementById("search");
