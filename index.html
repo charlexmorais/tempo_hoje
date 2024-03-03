@@ -11,47 +11,55 @@
     <title>Clima Tempo</title>
 </head>
 <body>
-    <div class="container">
-        <div class="form">
-            <h3>Veja o clima de uma cidade:</h3>
-            <div class="form-input-container">
-                <input type="text" placeholder="Digite o nome da cidade" id="city-input" />
-                <button id="search">
-                    <i class="fas fa-search"></i>
-                </button>
-            </div>
+    <header>
+        <div class="container">
+            <h1>Clima Tempo</h1>
         </div>
+    </header>
 
-        <div id="time_date" class="hide">
-            <h2>
-                <div class="location">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span id="city"></span> 
+    <main>
+        <div class="container">
+            <section class="form">
+                <h2>Veja o clima de uma cidade:</h2>
+                <div class="form-input-container">
+                    <input type="text" placeholder="Digite o nome da cidade" id="city-input" />
+                    <button id="search">
+                        <i class="fas fa-search"></i>
+                    </button>
                 </div>
-                <div class="countries">
-                    <p id="country">
-                        <span>BR</span>
+            </section>
+
+            <section id="weather-details" class="hide">
+                <h2>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span id="city-name"></span> 
+                    </div>
+                    <div class="countries">
+                        <p id="country-code">
+                            <span>BR</span>
+                        </p>
+                    </div>
+                </h2>
+                <p id="temperature"><span></span>&deg;C</p>
+                <div id="description-container"> 
+                    <p id="description"></p>
+                    <img src="" alt="condições de tempo" id="weather-icon"/>
+                </div>
+                <div id="details-container">
+                    <p id="humidity">
+                        <i class="fas fa-tint"></i>
+                        <span></span>
+                    </p> 
+                    <p id="wind">
+                        <i class="fas fa-wind"></i>
+                        <span></span>
                     </p>
                 </div>
-                
-            </h2>
-            <p id="temperature"><span></span>&deg;C</p>
-            <div id="description-container"> 
-                <p id="description"></p>
-                <img src="" alt="condições de tempo" id="weather-icon"/>
-            </div>
-            <div id="details-container">
-                <p id="humidity">
-                    <i class="fas fa-tint"></i>
-                    <span></span>
-                </p> 
-                <p id="wind">
-                    <i class="fas fa-wind"></i>
-                    <span></span>
-                </p>
-            </div>
+            </section>
         </div>
-    </div>
+    </main>
+
     <script type="module" src="js/index.js"></script>
 </body>
 </html>
