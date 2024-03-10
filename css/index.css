@@ -18,7 +18,7 @@ body {
   align-items: center;
   height: 100vh;
 }
-.hide {
+.hidden {
   display: none;
 }
 .container {
@@ -29,7 +29,7 @@ body {
   border-radius: 1rem;
 }
 
-.form h3 {
+.form h2 {
   margin-bottom: 1rem;
 }
 .form-input-container {
@@ -55,25 +55,25 @@ body {
   background-color: #5c54ed;
 }
 
-#time_date {
+#weather-details {
   border-top: 1px solid #fff;
   margin-top: 1.5rem;
   padding-top: 1.5rem;
   text-align: center;
 }
-#time_date h2 {
+#weather-details h2 {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 0.6rem;
 }
-#time_date h2 i {
+#weather-details h2 i {
   font-size: 1rem;
 }
-#time_date span {
+#weather-details span  {
   margin: 0.6rem;
 }
-#country {
+#country-code {
   height: 15px;
 }
 #description-container {

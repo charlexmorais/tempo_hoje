@@ -22,7 +22,9 @@ const getWeatherData = async (city) => {
 
 const showWeatherData = async (city) => {
     const data = await getWeatherData(city);
+
     if (data) {
+        console.log(data)
         cityInput.value = ''; 
         cityElement.innerText = data.name;
         tempElement.innerText = parseInt(data.main.temp);
@@ -31,7 +33,7 @@ const showWeatherData = async (city) => {
         countryElement.innerText = data.sys.country;
         humidityElement.innerText = `${data.main.humidity}%`;
         windElement.innerText = `${data.wind.speed}km/h`;
-        weatherContainer.classList.remove("hide");
+        weatherContainer.classList.remove("hidden");
         showSuccess("sucesso ao obter dados do clima!!");
     } else {
         showError('Erro ao obter dados do clima. Por favor, tente novamente.');
