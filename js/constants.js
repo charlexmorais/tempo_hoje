@@ -1,6 +1,5 @@
 
-export const chaveApi = process.env.CHAVE_API || '03d6aa7fc497d02b704a50531f51d827'
-
+export const chaveApi = process.env.REACT_APP_CHAVE_API || "sua_chave_padrao";
 
 export const cityInput = document.querySelector("#city-input");
 export const searchBtn = document.getElementById("search");
