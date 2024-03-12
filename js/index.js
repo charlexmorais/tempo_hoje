@@ -1,7 +1,6 @@
-import { chaveApi, cityElement, cityInput, countryElement, desElement, humidityElement, searchBtn, tempElement, weatherContainer, weatherElement, windElement } from "./constants.js";
+import {  chaveApi, cityElement, cityInput, countryElement, desElement, humidityElement, searchBtn, tempElement, weatherContainer, weatherElement, windElement } from "./constants.js";
 import { showError, showSuccess } from "./message.js";
-
-
+require('dotenv').config();
 
 const getWeatherData = async (city) => {
     try {
