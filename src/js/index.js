@@ -1,10 +1,9 @@
-require('dotenv').config()
+
 import { cityElement, cityInput, countryElement, desElement, humidityElement, searchBtn, tempElement, weatherContainer, weatherElement, windElement } from "./constants.js";
 import { showError, showSuccess } from "./message.js";
-import dotenv from "dotenv";
-dotenv.config();
 
-const chaveAPI = process.env.CHAVE_API;
+
+const chaveAPI = "03d6aa7fc497d02b704a50531f51d827";
 
 
 
