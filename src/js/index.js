@@ -1,9 +1,10 @@
 
+import { CHAVE_API, } from "./config.js";
 import { cityElement, cityInput, countryElement, desElement, humidityElement, searchBtn, tempElement, weatherContainer, weatherElement, windElement } from "./constants.js";
 import { showError, showSuccess } from "./message.js";
 
 
-const chaveAPI = "03d6aa7fc497d02b704a50531f51d827";
+
 
 
 
@@ -11,7 +12,7 @@ const chaveAPI = "03d6aa7fc497d02b704a50531f51d827";
 
 const getWeatherData = async (city) => {
     try {
-        const apiWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${chaveAPI}&lang=pt_br`;
+        const apiWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${CHAVE_API}&lang=pt_br`;
         const res = await fetch(apiWeatherUrl);
         if (!res.ok) {
             throw new Error('Erro ao obter dados do clima');

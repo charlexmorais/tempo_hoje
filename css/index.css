@@ -108,7 +108,7 @@ body {
 .error,
 .success {
     position: fixed;
-    top: 70%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #ffcccc; /* Cor de fundo para mensagens de erro */
